@@ -346,15 +346,24 @@ body {
     height: 57px;
     margin-top: 24px;
     font-size: 16px;
+    border-radius: 8px;
 }
 .input-button {
     margin-top: 24px;
     width: 120px;
-    height: 58px;
-    padding: 17px 20px 17px 20px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
     font-size: 20px;
+    font-weight: 900;
+    border-radius: 8px;
 }
-
+.support-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
 /* footer section styles start here */
 .footer-section{
     /* width: 1440px; */
@@ -374,6 +383,6 @@ body {
     align-items: center;
     
 }
-.social-icon {
+.social-icon img {
    margin-right: 10px;
 }
