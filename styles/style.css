@@ -202,6 +202,7 @@ body {
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    margin-top: 40px;
     margin-bottom: 149;
 }
 .video iframe {
