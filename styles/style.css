@@ -204,3 +204,176 @@ body {
 }
 
 /* My current target styles start here */
+.current-target-container{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.current-text {
+    text-align: center;
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+.current-text h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.current-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.current-items{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    gap: 24px;
+}
+.item1 {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    /* border-radius: 16px; */
+    /* background: rgba(255, 76, 30, 0.05); */
+}
+.item1 img {
+    width: 30px;
+    height: 35px;
+    margin-bottom: 16px;
+}
+.item1 h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.item1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.item1 a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+#item1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 48px;
+}
+#item2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-top: 48px;
+}
+#item3 {
+    margin-top: 48px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+/* support container styles start here */
+.support-container{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    background-image: url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 80px;
+}
+.support-text{
+    text-align: center;
+    width: 1044px;
+    height: 186px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.support-text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    opacity: 0.7;
+    margin-top: 16px;
+}
+.input-text {
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+    margin-top: 24px;
+    font-size: 16px;
+}
+.input-button {
+    margin-top: 24px;
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    font-size: 20px;
+}
+
+/* footer section styles start here */
+.footer-section{
+    /* width: 1440px; */
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+}
+.footer-container{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.social-icon {
+   margin-right: 10px;
+}
